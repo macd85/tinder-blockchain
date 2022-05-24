@@ -19,7 +19,6 @@ const Card = () => {
 
   return (
     <div className={style.wrapper}>
-      testtest
       <CardHeader />
       <div className={style.cardMain}>
         <div className={style.noMoreWrapper}>
