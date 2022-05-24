@@ -19,6 +19,7 @@ const Card = () => {
 
   return (
     <div className={style.wrapper}>
+      sdfsdfsdfsdf
       <CardHeader />
       <div className={style.cardMain}>
         <div className={style.noMoreWrapper}>
