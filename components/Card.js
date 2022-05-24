@@ -1,9 +1,9 @@
-import { useContext } from 'react'
-import { TinderContext } from '../context/TinderContext'
-import { SiTinder } from 'react-icons/si'
-import CardHeader from './CardHeader'
-import CardFooter from './CardFooter'
-import TinderCardItem from './TinderCardItem'
+import { useContext } from "react";
+import { TinderContext } from "../context/TinderContext";
+import { SiTinder } from "react-icons/si";
+import CardHeader from "./CardHeader";
+import CardFooter from "./CardFooter";
+import TinderCardItem from "./TinderCardItem";
 
 const style = {
   wrapper: `h-[45rem] w-[27rem] flex flex-col rounded-lg overflow-hidden`,
@@ -12,13 +12,14 @@ const style = {
   tinderLogo: `text-5xl text-red-500 mb-4`,
   noMoreText: `text-xl text-white`,
   swipesContainer: `w-full h-full overflow-hidden`,
-}
+};
 
 const Card = () => {
-  const { cardsData } = useContext(TinderContext)
+  const { cardsData } = useContext(TinderContext);
 
   return (
     <div className={style.wrapper}>
+      testtest
       <CardHeader />
       <div className={style.cardMain}>
         <div className={style.noMoreWrapper}>
@@ -35,7 +36,7 @@ const Card = () => {
       </div>
       <CardFooter />
     </div>
-  )
-}
+  );
+};
 
-export default Card
+export default Card;
